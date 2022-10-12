@@ -8,6 +8,7 @@ import { NavigationBarComponent } from './Components/navigation-bar/navigation-b
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './Components/footer/footer.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
