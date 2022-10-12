@@ -7,12 +7,14 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { NavigationBarComponent } from './Components/navigation-bar/navigation-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
