@@ -9,13 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './Components/footer/footer.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { ContactComponent } from './Components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     NavigationBarComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
